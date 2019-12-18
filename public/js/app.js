@@ -30,7 +30,7 @@ function initializeClient() {
 
 // Tutorial Step 2
 function joinChannel() {
-  var channel_name = "demoChannel1";
+  var channel_name = "goBingo";
 
   client.join(null, channel_name, null, function(uid) {
     localuid = uid;
